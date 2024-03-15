@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"      xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="quote" resource="default" engine="innodb">
+        <column xsi:type="varchar" name="alternate_phone" nullable="true" comment="Alternative Phone"/>
+        <column xsi:type="varchar" name="delhivery_type" nullable="true" comment="Delhivery Type"/>
+        <column xsi:type="date" name="delhivery_date" nullable="true" comment="Delhivery Date"/>
+        <column xsi:type="varchar" name="gender" nullable="true" comment="Gender"/>
+        <column xsi:type="varchar" name="delhivery_note" nullable="true" comment="Delhivery Note"/>
+    </table>
+    <table name="sales_order" resource="default" engine="innodb">
+        <column xsi:type="varchar" name="alternate_phone" nullable="true" comment="Alternative Phone"/>
+        <column xsi:type="varchar" name="delhivery_type" nullable="true" comment="Delhivery Type"/>
+        <column xsi:type="date" name="delhivery_date" nullable="true" comment="Delhivery Date"/>
+        <column xsi:type="varchar" name="gender" nullable="true" comment="Gender"/>
+        <column xsi:type="varchar" name="delhivery_note" nullable="true" comment="Delhivery Note"/>
+    </table>
+</schema>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"       xsi:noNamespaceSchemaLocation="urn:magento:framework:Api/etc/extension_attributes.xsd">
+    <extension_attributes for="Magento\Checkout\Api\Data\ShippingInformationInterface">
+        <attribute code="alternate_phone" type="string"/>
+        <attribute code="delhivery_type" type="string"/>
+        <attribute code="delhivery_date" type="string"/>
+        <attribute code="gender" type="string"/>
+        <attribute code="delhivery_note" type="string"/>
+    </extension_attributes>
+</config>
